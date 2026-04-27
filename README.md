@@ -6,6 +6,5 @@ Un supermarché en ligne souhaite réduire les emballages via des nudges pour pr
 Question : Un signal social (“80% choisissent cela”) ou écologique (“50g de plastique évités”) est-il plus efficace ?
 
 ## Contenu du projet
-- Application oTree fonctionnelle (templates)
+- Application oTree fonctionnelle (templates/)
 - Simulation participants + génération données (tests.py)
-- Analyse descriptive (airplot)
