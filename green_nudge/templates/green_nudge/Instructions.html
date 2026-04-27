@@ -1,0 +1,56 @@
+{% extends "global/Page.html" %}
+{% block title %}Consignes{% endblock %}
+
+{% block content %}
+
+<p>
+  Vous allez réaliser une tâche de décision similaire à des courses en ligne.
+  Vous verrez <b>{{ num_products }}</b> produits (un par écran).
+  Vous avez <b>{{ total_time }} secondes</b> au total pour l’ensemble des choix.
+</p>
+
+<p>
+  <b>Affectation aléatoire :</b> pour les besoins de l’étude, vous êtes assigné(e) au hasard à l’un de deux cadres.
+</p>
+
+<ul>
+  <li>
+    <b>Cadre individuel</b> : l’impact est présenté à l’échelle de vos choix personnels.
+  </li>
+  <li>
+    <b>Cadre collectif</b> : l’impact est présenté comme une contribution à une initiative collective.
+  </li>
+</ul>
+
+{% if goal_frame == "collective" %}
+  <div style="border:1px solid #ddd; padding:10px; border-radius:8px; background:#f8fbff;">
+    <b>Votre cadre :</b> collectif. <br>
+    Vos choix contribuent à une initiative collective.
+  </div>
+{% else %}
+  <div style="border:1px solid #ddd; padding:10px; border-radius:8px; background:#f8fbff;">
+    <b>Votre cadre :</b> individuel. <br>
+    Vos choix sont présentés à l’échelle individuelle.
+  </div>
+{% endif %}
+
+<hr>
+
+<p>
+  Pour chaque produit, vous choisissez entre <b>Emballé</b> et <b>Vrac</b>.
+  L’option <b>Emballé</b> est sélectionnée par défaut (comme un choix “habituel”).
+  Vous pouvez changer pour <b>Vrac</b> si vous le souhaitez.
+</p>
+
+<p>
+  Un message peut apparaître sur l’écran pendant vos choix. Merci de répondre spontanément, comme lors de courses réelles.
+</p>
+
+<p>
+  Si le temps total est écoulé, l’expérience s’arrête automatiquement :
+  <b>seuls les choix déjà validés</b> sont pris en compte.
+</p>
+
+
+{{ next_button }}
+{% endblock %}

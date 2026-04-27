@@ -1,0 +1,11 @@
+{% extends "global/Page.html" %}
+{% block title %}Questionnaire démographique{% endblock %}
+
+{% block content %}
+
+{{ formfield 'age' }}
+{{ formfield 'gender' }}
+{{ formfield 'bulk_frequency' }}
+
+{{ next_button }}
+{% endblock %}
