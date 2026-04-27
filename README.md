@@ -7,5 +7,5 @@ Question : Un signal social (“80% choisissent cela”) ou écologique (“50g 
 
 ## Contenu du projet
 - Application oTree fonctionnelle (templates)
-- tests.py : simulation participants (bots) + génération données
+- Simulation participants + génération données (tests.py)
 - Analyse descriptive (airplot)
