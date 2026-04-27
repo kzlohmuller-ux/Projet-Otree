@@ -1,4 +1,4 @@
-# Projet en économie comportementale avec oTree - # Le “green nudge” (RSE)
+# Projet en économie comportementale avec oTree -            Le “green nudge” (RSE)
 
 ## Contexte du projet
 Un supermarché en ligne souhaite réduire les emballages via des nudges pour promouvoir les produits en vrac.
