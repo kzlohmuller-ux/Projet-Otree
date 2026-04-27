@@ -1,0 +1,14 @@
+{% extends "global/Page.html" %}
+{% block title %}Questions de compréhension{% endblock %}
+
+{% block content %}
+<p>
+  Avant de commencer, merci de répondre à ces 2 questions.
+  Elles permettent de vérifier que les consignes sont claires.
+</p>
+
+{{ formfield 'quiz_default' }}
+{{ formfield 'quiz_time' }}
+
+{{ next_button }}
+{% endblock %}

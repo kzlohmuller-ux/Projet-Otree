@@ -1,0 +1,16 @@
+{% extends "global/Page.html" %}
+{% block title %}Début{% endblock %}
+
+{% block content %}
+<p>
+  Vous pouvez commencer. Le temps ({{ total_time }} secondes) démarre dès que vous cliquez sur “Suivant”.
+</p>
+
+{% if goal_frame == "collective" %}
+  <p><b>Rappel :</b> vos choix contribuent à une initiative collective.</p>
+{% else %}
+  <p><b>Rappel :</b> faites vos choix comme d’habitude.</p>
+{% endif %}
+
+{{ next_button }}
+{% endblock %}
