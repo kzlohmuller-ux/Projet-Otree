@@ -1,6 +1,11 @@
 # Projet en économie comportementale avec oTree -<br>Le “green nudge” (RSE)
 
-## Contexte du projet
-Un supermarché en ligne souhaite réduire les emballages via des nudges pour promouvoir les produits en vrac.
+## Contenu
+- `templates/` : Application tri fonctionnelle HTML  
+- `test.py` : Simulation participants (bots) + données
+- `__init__.py` : Configuration Python
 
-Question : Un signal social (“80% choisissent cela”) ou écologique (“50g de plastique évités”) est-il plus efficace ?
+## Lancer l'expérience
+```bash
+pip install otree
+otree devserver
