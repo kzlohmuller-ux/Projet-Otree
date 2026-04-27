@@ -1,4 +1,4 @@
-# Projet en économie comportementale (oTree) - Green Nudge
+# Projet en économie comportementale - Green Nudge
 
 ## Contexte du projet
 Un supermarché en ligne souhaite réduire les emballages via des nudges pour promouvoir les produits en vrac.
